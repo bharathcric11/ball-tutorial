@@ -16,8 +16,7 @@ name: 'CI Pipeline - Auto Triggered'
 on:
   push:
     branches:
-      - main
-      - release/**
+      - dev11
 
 
   workflow_dispatch:
