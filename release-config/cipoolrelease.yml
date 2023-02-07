@@ -1,0 +1,4 @@
+---
+releaseName: cipoolrelease
+includeOnlyArtifacts:
+  - core2

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dxatscale/sfpowerscripts/develop/packages/sfpowerscripts-cli/resources/schemas/pooldefinition.schema.json",
+  "tag": "cipool-release",
+   "maxAllocation": 4,
+   "expiry": 2,
+   "batchSize": 5,
+   "configFilePath": "config/project-scratch-def.json",
+   "releaseConfigFile":"release-config/cipoolrelease.yml",
+   "enableSourceTracking": false,
+   "installAll": true,
+    "fetchArtifacts": {
+      "npm": {
+        "scope": "dxatscale"
+      }
+    }
+ 
+ }
